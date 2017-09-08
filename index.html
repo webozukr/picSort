@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>picSort</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <header>Image view</header>
+        <div class="content-container">
+            <div class="pic-container">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <img src="img/empty.jpg" alt="img" class="previewPic" onclick="showFullScr(this)">
+                <div class="pagination">
+                    <p id="left-arr" onclick="decrPage()">&lt;</p>
+                    <p id="cur-page">1</p>
+                    <p id="right-arr" onclick="incrPage()">&gt;</p>
+                </div>
+            </div>
+            <div class="side-container">
+                <h5>filter by</h3>
+                    <p class="title-size">Size</p>
+                    <ul class="filter-size">
+                        <li class="filter-size-item" onclick="filter_size_select(this)" data-filter-val="large"><span>&#x25cf; </span>Large</li>
+                        <li class="filter-size-item" onclick="filter_size_select(this)" data-filter-val="medium"><span>&#x25cf; </span>Medium</li>
+                        <li class="filter-size-item" onclick="filter_size_select(this)" data-filter-val="small"><span>&#x25cf; </span>Small</li>
+                    </ul>
+                    <p class="title-author">Author</p>
+                    <div class="author-cont">
+                        <ul class="filter-author">
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="fullscr invisible-blk" onclick="closePic()">
+            <img id="imgFullScr" src="" alt="" onclick="closePic()">
+        </div>
+    </div>
+    <script src="./js/build.js"></script>
+</body>
+
+</html>

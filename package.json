@@ -17,6 +17,18 @@
   },
   "homepage": "https://github.com/webozukr/picSort#readme",
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11"
+  },
+  "dependencies": {
     "gulp": "^3.9.1"
   }
 }

@@ -10,13 +10,13 @@ var gulp = require('gulp'),
 var paths = {
     js : './js/**/*.js',
     jsdir : './js',
-    script : './scripts/**/*.js',
+    script : './script/**/*.js',
     scss : [
         './scss/**/*.scss',
         '!scss/**/*_scsslint_tmp*.scss'
     ],
     cssdir : './css',
-    cssdirdel:'./css/pages',
+    cssdirdel:'./css',
     html: './**/*.html'
 };
 
