@@ -39,9 +39,7 @@ jspm_packages
 # WebStorm Temp directory
 .idea
 
-# Project auto generated files directories
-css
-js
+
 
 #Project PSD files
 psd
